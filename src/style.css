@@ -1,0 +1,76 @@
+.form-container{
+    background: linear-gradient(180deg,transparent,transparent, #BBE1FA, #BBE1FA, #BBE1FA);
+    z-index: 1;
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-wrapper{
+    background: linear-gradient(180deg, transparent, transparent,#3282B8, #3282B8, #3282B8);
+    padding: 20px 60px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.form-wrapper form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.logo {
+    color: #0F4C75;
+    font-weight: bold;
+    font-size: 24px;
+}
+input{
+    padding: 15px;
+    border: none;
+    border-bottom:1px solid #0F4C75;
+}
+form button{
+   background: linear-gradient(180deg,transparent, #0F4C75,#0F4C75,#0F4C75);
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+.success-form{
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    color: green;
+}
+.success-form button{
+    margin: 10px;
+}
+p button{
+    align-items: center;
+    justify-content: center;
+    
+    color: #fff;
+    background:linear-gradient(180deg,transparent,transparent, #0F4C75, #0F4C75,#0F4C75) ;
+}
+button{
+    background: linear-gradient(180deg,transparent,transparent, #0F4C75, #0F4C75, #0F4C75);
+     padding: 10px;
+     border: none;
+     font-weight: bold;
+     color: #fff;
+     cursor: pointer;
+     border-radius: 10px;
+ }
+span button{
+  margin-left: 48px;
+  border-radius: 10px;
+}
+form input{
+    border-radius: 6px;
+}
+
